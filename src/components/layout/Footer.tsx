@@ -1,4 +1,3 @@
-import React from 'react';
 import { ChefHat, Facebook, Twitter, Instagram, Linkedin, Heart } from 'lucide-react';
 
 const Footer = () => {

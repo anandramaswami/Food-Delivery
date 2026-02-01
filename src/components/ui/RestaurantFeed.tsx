@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { SlidersHorizontal } from 'lucide-react';
 import RestaurantCard from './RestaurantCard';
@@ -74,7 +73,6 @@ const restaurants = [
 ];
 
 const RestaurantFeed = ({ filterCategory }: { filterCategory: string | null }) => {
-    const [filter, setFilter] = useState("Relevant");
     const navigate = useNavigate();
 
     const filteredRestaurants = filterCategory

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useOrders } from '../../context/OrderContext';
 import { useCart } from '../../context/CartContext';
 import { ArrowRight, RotateCw } from 'lucide-react';

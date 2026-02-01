@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ShoppingBag, User, ChefHat, ChevronDown, Percent } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const categories = [
     { id: 1, name: "Biryani", img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667170/PC_Creative%20refresh/3D_bau/banners_new/Biryani.png" },
     { id: 2, name: "Pizza", img: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667170/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png" },

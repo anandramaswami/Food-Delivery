@@ -1,6 +1,5 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { Star, Clock, MapPin, Search } from 'lucide-react';
+import { useParams } from 'react-router-dom';
+import { Star, Clock } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
 // Mock Data for individual Restaurant Menus
