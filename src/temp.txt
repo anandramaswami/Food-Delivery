@@ -1,0 +1,15 @@
+import React from 'react';
+import { ChefHat, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+
+const Footer = () => {
+    return (
+        <footer className="bg-[#02060c] text-white pt-12 pb-8">
+             {/* Note: User requested footer same colour as navbar (#fc8019), but typical Swiggy-like apps usually use dark footer for contrast. 
+                 However, user explicitly asked for "footer should be of same colour of navbar".
+                 I will stick to the user's request: "footer should be of same colour of navbar".
+            */}
+        </footer>
+    );
+};
+// Wait, I started writing dark footer but recalled the requirement: "footer should be of same colour of navbar".
+// Let me rewrite completely with the requested orange background.
